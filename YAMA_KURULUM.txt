@@ -1,0 +1,13 @@
+Mikro Baskı — GitHub Pages yaması
+
+1. Bu ZIP'i bilgisayarınızda çıkartın.
+2. ZIP içindeki dosyaları GitHub deposunun ana dizinine, klasör yapısını koruyarak yükleyin.
+3. Özellikle `.github/workflows/deploy.yml` dosyası depo kökünde bulunmalıdır.
+4. vite.config.js dosyası mevcut uygulama klasöründe bulunmalıdır.
+5. GitHub → Settings → Pages → Source bölümünde GitHub Actions seçin.
+6. Dosyaları varsayılan dala commit edin. Actions sekmesinde yayın işi otomatik başlayacaktır.
+
+Proje klasörü: depo ana dizini
+Yayınlanacak çıktı: ./dist
+
+ÖNEMLİ: Kaynak `src` klasörünü, `package.json` ve `index.html` dosyalarını silmeyin. Actions kaynak projeyi derler ve `dist` klasörünü yayınlar.

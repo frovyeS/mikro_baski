@@ -19,3 +19,9 @@ npm run dev
 
 ## MVP sınırları
 Bu prototip gelişmiş grup/multi-select, akıllı hizalama, çok sayfalı belge, font gömme/path dönüşümü, gerçek CMYK profilleri, kesim işaretleri ve gelişmiş DPI analizi içermez. PDF/SVG dışa aktarım öncesi ve baskı sonrası ölçüleri kontrol edin. SVG import yok; kullanıcı yüklediği SVG/vektör dosyaları konusunda dikkatli olmalıdır. QR üretimi URL/metin içindir.
+
+## GitHub Pages yayınlama
+
+Bu proje React + Vite kaynak projesidir. Depo ana dizininde bulunan `.github/workflows/deploy.yml` dosyası GitHub Actions ile `npm install` ve `npm run build` çalıştırır; ardından yalnızca `dist/` çıktısını GitHub Pages'e gönderir. `vite.config` içindeki `base: './'` ayarı, depo adı altındaki Pages adreslerinde dosya yollarını göreli tutar.
+
+GitHub'da **Settings → Pages → Source → GitHub Actions** seçin. Sonra varsayılan dalınıza (genellikle `main`) commit gönderin ve **Actions** sekmesindeki yayın işinin yeşil tikle tamamlanmasını bekleyin. Terminal kullanmanız gerekmez.
