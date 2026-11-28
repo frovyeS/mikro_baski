@@ -1,0 +1,3 @@
+Inter, Montserrat, Playfair Display, Lora, Roboto Mono ve Bebas Neue yazı tipleri
+SIL Open Font License 1.1 kapsamında dağıtılır: https://openfontlicense.org
+Dosyalar Latin ve Latin Genişletilmiş (Türkçe) karakterler için alt kümelenmiştir.
